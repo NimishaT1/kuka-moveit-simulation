@@ -1,6 +1,12 @@
 # kuka-moveit-simulation
 This is a simulation of the kuka industrial robotic arm in MoveIt using ROS2 Humble.<br>
 The URDF for kuka industrial bots for ros2 humble can be found here: https://github.com/kroshu/kuka_robot_descriptions/tree/humble
+
+
+https://github.com/user-attachments/assets/7c1f7106-fe60-4206-b88d-4832eac51c0d
+
+
+
 # Run the simulation
 1. Clone this repo into your workspace <br><br>
 2. Install MoveIt using `sudo apt install ros-humble-moveit` <br><br>
