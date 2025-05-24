@@ -1,0 +1,57 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+-- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /nWipro_ws/build/kuka_iontec_support
+-- Install configuration: ""
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/config
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/config/kr70_r2100_joint_limits.yaml
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/launch
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/launch/test_kr70r2100.launch.py
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_6.dae
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_3.dae
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_4.dae
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_5.dae
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_2.dae
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_1.dae
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/base_link.dae
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/base_link.stl
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_4.stl
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_6.stl
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_5.stl
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_3.stl
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_1.stl
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_2.stl
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf/kr_iontec_ros2_control.xacro
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf/kr_iontec_transmission.xacro
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf/kr70_r2100.urdf.xacro
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf/kr70_r2100_macro.xacro
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/ament_index/resource_index/package_run_dependencies/kuka_iontec_support
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/ament_index/resource_index/parent_prefix_path/kuka_iontec_support
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/environment/ament_prefix_path.sh
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/environment/ament_prefix_path.dsv
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/environment/path.sh
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/environment/path.dsv
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/local_setup.bash
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/local_setup.sh
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/local_setup.zsh
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/local_setup.dsv
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/package.dsv
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/ament_index/resource_index/packages/kuka_iontec_support
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/cmake/kuka_iontec_supportConfig.cmake
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/cmake/kuka_iontec_supportConfig-version.cmake
+-- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/package.xml

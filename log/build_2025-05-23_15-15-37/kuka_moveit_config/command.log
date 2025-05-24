@@ -1,0 +1,4 @@
+Invoking command in '/nWipro_ws/build/kuka_moveit_config': CMAKE_PREFIX_PATH=/nWipro_ws/install/kuka_iontec_support:/nWipro_ws/install/kuka_moveit_config:/opt/ros/humble /usr/bin/cmake --build /nWipro_ws/build/kuka_moveit_config -- -j16 -l16
+Invoked command in '/nWipro_ws/build/kuka_moveit_config' returned '0': CMAKE_PREFIX_PATH=/nWipro_ws/install/kuka_iontec_support:/nWipro_ws/install/kuka_moveit_config:/opt/ros/humble /usr/bin/cmake --build /nWipro_ws/build/kuka_moveit_config -- -j16 -l16
+Invoking command in '/nWipro_ws/build/kuka_moveit_config': CMAKE_PREFIX_PATH=/nWipro_ws/install/kuka_iontec_support:/nWipro_ws/install/kuka_moveit_config:/opt/ros/humble /usr/bin/cmake --install /nWipro_ws/build/kuka_moveit_config
+Invoked command in '/nWipro_ws/build/kuka_moveit_config' returned '0': CMAKE_PREFIX_PATH=/nWipro_ws/install/kuka_iontec_support:/nWipro_ws/install/kuka_moveit_config:/opt/ros/humble /usr/bin/cmake --install /nWipro_ws/build/kuka_moveit_config

@@ -1,0 +1,6 @@
+Invoking command in '/nWipro_ws/build/kuka_iontec_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /nWipro_ws/src/kuka_iontec_support -DCMAKE_INSTALL_PREFIX=/nWipro_ws/install/kuka_iontec_support
+Invoked command in '/nWipro_ws/build/kuka_iontec_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /nWipro_ws/src/kuka_iontec_support -DCMAKE_INSTALL_PREFIX=/nWipro_ws/install/kuka_iontec_support
+Invoking command in '/nWipro_ws/build/kuka_iontec_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /nWipro_ws/build/kuka_iontec_support -- -j16 -l16
+Invoked command in '/nWipro_ws/build/kuka_iontec_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /nWipro_ws/build/kuka_iontec_support -- -j16 -l16
+Invoking command in '/nWipro_ws/build/kuka_iontec_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /nWipro_ws/build/kuka_iontec_support
+Invoked command in '/nWipro_ws/build/kuka_iontec_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /nWipro_ws/build/kuka_iontec_support

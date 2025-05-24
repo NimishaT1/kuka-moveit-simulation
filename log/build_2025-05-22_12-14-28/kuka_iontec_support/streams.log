@@ -1,0 +1,63 @@
+[0.008s] Invoking command in '/nWipro_ws/build/kuka_iontec_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /nWipro_ws/src/kuka_iontec_support -DCMAKE_INSTALL_PREFIX=/nWipro_ws/install/kuka_iontec_support
+[0.016s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.125s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.126s] -- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.128s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.142s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.146s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.146s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.146s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.146s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.161s] -- Found PythonExtra: .so  
+[0.205s] -- Configuring done
+[0.207s] -- Generating done
+[0.208s] -- Build files have been written to: /nWipro_ws/build/kuka_iontec_support
+[0.211s] Invoked command in '/nWipro_ws/build/kuka_iontec_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /nWipro_ws/src/kuka_iontec_support -DCMAKE_INSTALL_PREFIX=/nWipro_ws/install/kuka_iontec_support
+[0.213s] Invoking command in '/nWipro_ws/build/kuka_iontec_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /nWipro_ws/build/kuka_iontec_support -- -j16 -l16
+[0.238s] Invoked command in '/nWipro_ws/build/kuka_iontec_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /nWipro_ws/build/kuka_iontec_support -- -j16 -l16
+[0.244s] Invoking command in '/nWipro_ws/build/kuka_iontec_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /nWipro_ws/build/kuka_iontec_support
+[0.249s] -- Install configuration: ""
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/config
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/config/kr70_r2100_joint_limits.yaml
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/launch
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/launch/test_kr70r2100.launch.py
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_6.dae
+[0.249s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_3.dae
+[0.250s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_4.dae
+[0.251s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_5.dae
+[0.251s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_2.dae
+[0.251s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/link_1.dae
+[0.254s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/visual/base_link.dae
+[0.255s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision
+[0.256s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/base_link.stl
+[0.256s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_4.stl
+[0.257s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_6.stl
+[0.257s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_5.stl
+[0.257s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_3.stl
+[0.258s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_1.stl
+[0.259s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/meshes/kr70_r2100/collision/link_2.stl
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf/kr_iontec_ros2_control.xacro
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf/kr_iontec_transmission.xacro
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf/kr70_r2100.urdf.xacro
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/urdf/kr70_r2100_macro.xacro
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/ament_index/resource_index/package_run_dependencies/kuka_iontec_support
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/ament_index/resource_index/parent_prefix_path/kuka_iontec_support
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/environment/ament_prefix_path.sh
+[0.260s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/environment/ament_prefix_path.dsv
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/environment/path.sh
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/environment/path.dsv
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/local_setup.bash
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/local_setup.sh
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/local_setup.zsh
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/local_setup.dsv
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/package.dsv
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/ament_index/resource_index/packages/kuka_iontec_support
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/cmake/kuka_iontec_supportConfig.cmake
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/cmake/kuka_iontec_supportConfig-version.cmake
+[0.261s] -- Installing: /nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/package.xml
+[0.263s] Invoked command in '/nWipro_ws/build/kuka_iontec_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /nWipro_ws/build/kuka_iontec_support
