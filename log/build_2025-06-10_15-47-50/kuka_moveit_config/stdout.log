@@ -1,0 +1,42 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /wipro_ws/build/kuka_moveit_config
+-- Install configuration: ""
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/ament_index/resource_index/package_run_dependencies/kuka_moveit_config
+-- Installing: /wipro_ws/install/kuka_moveit_config/share/ament_index/resource_index/parent_prefix_path/kuka_moveit_config
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/environment/ament_prefix_path.dsv
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/environment/path.sh
+-- Installing: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/environment/path.dsv
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/local_setup.bash
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/local_setup.sh
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/local_setup.zsh
+-- Installing: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/local_setup.dsv
+-- Installing: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/package.dsv
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/ament_index/resource_index/packages/kuka_moveit_config
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/cmake/kuka_moveit_configConfig.cmake
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/cmake/kuka_moveit_configConfig-version.cmake
+-- Installing: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/package.xml
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch/spawn_controllers.launch.py
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch/setup_assistant.launch.py
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch/rsp.launch.py
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch/move_group.launch.py
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch/moveit_rviz.launch.py
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch/demo.launch.py
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch/warehouse_db.launch.py
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/launch/static_virtual_joint_tfs.launch.py
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/kuka.srdf
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/moveit.rviz
+-- Installing: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/moveit_controllers.yaml
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/ros2_controllers.yaml
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/kuka.ros2_control.xacro
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/initial_positions.yaml
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/sensors_3d.yaml
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/kinematics.yaml
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/kuka.urdf.xacro
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/config/joint_limits.yaml
+-- Up-to-date: /wipro_ws/install/kuka_moveit_config/share/kuka_moveit_config/.setup_assistant

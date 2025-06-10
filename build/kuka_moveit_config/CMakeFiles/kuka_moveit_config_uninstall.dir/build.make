@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nWipro_ws/src/kuka_moveit_config
+CMAKE_SOURCE_DIR = /wipro_ws/src/kuka_moveit_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nWipro_ws/build/kuka_moveit_config
+CMAKE_BINARY_DIR = /wipro_ws/build/kuka_moveit_config
 
 # Utility rule file for kuka_moveit_config_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/kuka_moveit_config_uninstall.dir/compiler_depend.make
 include CMakeFiles/kuka_moveit_config_uninstall.dir/progress.make
 
 CMakeFiles/kuka_moveit_config_uninstall:
-	/usr/bin/cmake -P /nWipro_ws/build/kuka_moveit_config/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /wipro_ws/build/kuka_moveit_config/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 kuka_moveit_config_uninstall: CMakeFiles/kuka_moveit_config_uninstall
 kuka_moveit_config_uninstall: CMakeFiles/kuka_moveit_config_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/kuka_moveit_config_uninstall.dir/clean:
 .PHONY : CMakeFiles/kuka_moveit_config_uninstall.dir/clean
 
 CMakeFiles/kuka_moveit_config_uninstall.dir/depend:
-	cd /nWipro_ws/build/kuka_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nWipro_ws/src/kuka_moveit_config /nWipro_ws/src/kuka_moveit_config /nWipro_ws/build/kuka_moveit_config /nWipro_ws/build/kuka_moveit_config /nWipro_ws/build/kuka_moveit_config/CMakeFiles/kuka_moveit_config_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /wipro_ws/build/kuka_moveit_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /wipro_ws/src/kuka_moveit_config /wipro_ws/src/kuka_moveit_config /wipro_ws/build/kuka_moveit_config /wipro_ws/build/kuka_moveit_config /wipro_ws/build/kuka_moveit_config/CMakeFiles/kuka_moveit_config_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kuka_moveit_config_uninstall.dir/depend
 

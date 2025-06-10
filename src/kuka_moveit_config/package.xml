@@ -4,9 +4,9 @@
   <name>kuka_moveit_config</name>
   <version>0.3.0</version>
   <description>
-     An automatically generated package with all the configuration and launch files for using the kr70_r2100 with the MoveIt Motion Planning Framework
+     An automatically generated package with all the configuration and launch files for using the kuka with the MoveIt Motion Planning Framework
   </description>
-  <maintainer email="nimishonimisha@gmail.com">nimisha</maintainer>
+  <maintainer email="n@gmail.com">n</maintainer>
 
   <license>BSD</license>
 
@@ -14,7 +14,7 @@
   <url type="bugtracker">https://github.com/ros-planning/moveit2/issues</url>
   <url type="repository">https://github.com/ros-planning/moveit2</url>
 
-  <author email="nimishonimisha@gmail.com">nimisha</author>
+  <author email="n@gmail.com">n</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
@@ -30,8 +30,8 @@
        We don't include them by default to prevent installing gazebo and all its dependencies. -->
   <!-- <exec_depend>joint_trajectory_controller</exec_depend> -->
   <!-- <exec_depend>gazebo_ros_control</exec_depend> -->
+  <exec_depend>arm_desc</exec_depend>
   <exec_depend>controller_manager</exec_depend>
-  <exec_depend>kuka_iontec_support</exec_depend>
   <exec_depend>moveit_configs_utils</exec_depend>
   <exec_depend>moveit_ros_move_group</exec_depend>
   <exec_depend>moveit_ros_visualization</exec_depend>

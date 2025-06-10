@@ -1,0 +1,4 @@
+Invoking command in '/wipro_ws/build/kuka_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/kuka_pkg -- -j16 -l16
+Invoked command in '/wipro_ws/build/kuka_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/kuka_pkg -- -j16 -l16
+Invoking command in '/wipro_ws/build/kuka_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/kuka_pkg
+Invoked command in '/wipro_ws/build/kuka_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/kuka_pkg

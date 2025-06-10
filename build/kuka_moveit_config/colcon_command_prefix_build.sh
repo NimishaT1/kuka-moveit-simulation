@@ -1,2 +1,2 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
-. "/nWipro_ws/install/kuka_iontec_support/share/kuka_iontec_support/package.sh"
+. "/wipro_ws/install/arm_desc/share/arm_desc/package.sh"

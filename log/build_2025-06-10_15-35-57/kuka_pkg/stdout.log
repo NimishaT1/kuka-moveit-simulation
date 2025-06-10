@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target kuka_node[0m
+[100%] Built target kuka_node
+-- Install configuration: ""
+-- Up-to-date: /wipro_ws/install/kuka_pkg/lib/kuka_pkg/kuka_node
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_pkg
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_pkg
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.sh
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.dsv
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.bash
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.sh
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.zsh
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.dsv
+-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/package.dsv
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/packages/kuka_pkg
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig.cmake
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig-version.cmake
+-- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/package.xml

@@ -1,1 +1,1 @@
-/nWipro_ws/install/kuka_moveit_config:/nWipro_ws/install/kuka_iontec_support:/opt/ros/humble
+/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_pkg:/wipro_ws/install/arm_desc:/opt/ros/humble

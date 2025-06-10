@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.000865] (arm_desc) JobQueued: {'identifier': 'arm_desc', 'dependencies': OrderedDict()}
+[0.000958] (kuka_pkg) JobQueued: {'identifier': 'kuka_pkg', 'dependencies': OrderedDict()}
+[0.001006] (arm_desc) JobStarted: {'identifier': 'arm_desc'}
+[0.011301] (kuka_pkg) JobStarted: {'identifier': 'kuka_pkg'}
+[0.017647] (arm_desc) JobProgress: {'identifier': 'arm_desc', 'progress': 'cmake'}
+[0.019153] (arm_desc) Command: {'cmd': ['/usr/bin/cmake', '/wipro_ws/src/arm_desc', '-DCMAKE_INSTALL_PREFIX=/wipro_ws/install/arm_desc'], 'cwd': '/wipro_ws/build/arm_desc', 'env': OrderedDict([('HOSTNAME', 'Nimisha-Ideapad5'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0aed5a24-9cb1-4c2d-884b-a455fdcf77d9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3ee20eb8-df23-48b8-a6a3-1e2640194bbc.sock'), ('COLCON_PREFIX_PATH', '/wipro_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a272746e95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('AMENT_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/wipro_ws/build/arm_desc'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble')]), 'shell': False}
+[0.024634] (kuka_pkg) JobProgress: {'identifier': 'kuka_pkg', 'progress': 'cmake'}
+[0.027472] (kuka_pkg) Command: {'cmd': ['/usr/bin/cmake', '/wipro_ws/src/kuka_pkg', '-DCMAKE_INSTALL_PREFIX=/wipro_ws/install/kuka_pkg'], 'cwd': '/wipro_ws/build/kuka_pkg', 'env': OrderedDict([('HOSTNAME', 'Nimisha-Ideapad5'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0aed5a24-9cb1-4c2d-884b-a455fdcf77d9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3ee20eb8-df23-48b8-a6a3-1e2640194bbc.sock'), ('COLCON_PREFIX_PATH', '/wipro_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a272746e95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('AMENT_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/wipro_ws/build/kuka_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble')]), 'shell': False}
+[0.099625] (-) TimerEvent: {}
+[0.200050] (-) TimerEvent: {}
+[0.206901] (arm_desc) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.207713] (kuka_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300238] (-) TimerEvent: {}
+[0.335072] (arm_desc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.338104] (kuka_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.348995] (arm_desc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.351435] (kuka_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400391] (-) TimerEvent: {}
+[0.456046] (kuka_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.457099] (arm_desc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.468687] (kuka_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.469362] (kuka_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.470083] (kuka_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.474373] (arm_desc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.474782] (arm_desc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.475277] (kuka_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.475525] (arm_desc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.485158] (arm_desc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500574] (-) TimerEvent: {}
+[0.601013] (-) TimerEvent: {}
+[0.604327] (kuka_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.609485] (arm_desc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.614885] (kuka_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.615431] (kuka_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.616183] (kuka_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.622017] (arm_desc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.622390] (arm_desc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.623138] (arm_desc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.626218] (kuka_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.629436] (arm_desc) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701171] (-) TimerEvent: {}
+[0.801519] (-) TimerEvent: {}
+[0.853281] (kuka_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.855109] (arm_desc) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901638] (-) TimerEvent: {}
+[1.002030] (-) TimerEvent: {}
+[1.025969] (arm_desc) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.026791] (kuka_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.102226] (-) TimerEvent: {}
+[1.135641] (kuka_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.150856] (kuka_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.163407] (arm_desc) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.167482] (arm_desc) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.169707] (arm_desc) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.170907] (kuka_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.174389] (arm_desc) StdoutLine: {'line': b'-- Generating done\n'}
+[1.176874] (arm_desc) StdoutLine: {'line': b'-- Build files have been written to: /wipro_ws/build/arm_desc\n'}
+[1.182256] (arm_desc) CommandEnded: {'returncode': 0}
+[1.182851] (arm_desc) JobProgress: {'identifier': 'arm_desc', 'progress': 'build'}
+[1.183772] (arm_desc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/wipro_ws/build/arm_desc', '--', '-j16', '-l16'], 'cwd': '/wipro_ws/build/arm_desc', 'env': OrderedDict([('HOSTNAME', 'Nimisha-Ideapad5'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0aed5a24-9cb1-4c2d-884b-a455fdcf77d9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3ee20eb8-df23-48b8-a6a3-1e2640194bbc.sock'), ('COLCON_PREFIX_PATH', '/wipro_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a272746e95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('AMENT_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/wipro_ws/build/arm_desc'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble')]), 'shell': False}
+[1.197176] (kuka_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202361] (-) TimerEvent: {}
+[1.234782] (kuka_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.250483] (arm_desc) CommandEnded: {'returncode': 0}
+[1.250960] (arm_desc) JobProgress: {'identifier': 'arm_desc', 'progress': 'install'}
+[1.261700] (arm_desc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/wipro_ws/build/arm_desc'], 'cwd': '/wipro_ws/build/arm_desc', 'env': OrderedDict([('HOSTNAME', 'Nimisha-Ideapad5'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0aed5a24-9cb1-4c2d-884b-a455fdcf77d9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3ee20eb8-df23-48b8-a6a3-1e2640194bbc.sock'), ('COLCON_PREFIX_PATH', '/wipro_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a272746e95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('AMENT_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/wipro_ws/build/arm_desc'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble')]), 'shell': False}
+[1.274524] (arm_desc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.274794] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes\n'}
+[1.274986] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_3_collisions.obj\n'}
+[1.275261] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_4_visuals.mtl\n'}
+[1.275459] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/base_link_visuals.obj\n'}
+[1.276493] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_3_visuals.mtl\n'}
+[1.276728] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_1_visuals.mtl\n'}
+[1.276888] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/base_link_collisions.obj\n'}
+[1.277049] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_6_collisions.obj\n'}
+[1.277269] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_3_visuals.obj\n'}
+[1.281494] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_5_visuals.mtl\n'}
+[1.281748] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_6_visuals.obj\n'}
+[1.285927] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_5_visuals.obj\n'}
+[1.290719] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_5_collisions.obj\n'}
+[1.291390] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_1_collisions.obj\n'}
+[1.291741] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_2_collisions.obj\n'}
+[1.292277] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_4_collisions.obj\n'}
+[1.292548] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_6_visuals.mtl\n'}
+[1.292702] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_4_visuals.obj\n'}
+[1.295083] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_1_visuals.obj\n'}
+[1.298789] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/base_link_visuals.mtl\n'}
+[1.299027] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_2_visuals.obj\n'}
+[1.302464] (-) TimerEvent: {}
+[1.309514] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_2_visuals.mtl\n'}
+[1.309822] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/urdf\n'}
+[1.309952] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/urdf/kuka.urdf\n'}
+[1.310178] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/ament_index/resource_index/package_run_dependencies/arm_desc\n'}
+[1.310573] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/ament_index/resource_index/parent_prefix_path/arm_desc\n'}
+[1.310890] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/environment/ament_prefix_path.sh\n'}
+[1.311129] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/environment/ament_prefix_path.dsv\n'}
+[1.311379] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/environment/path.sh\n'}
+[1.311602] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/environment/path.dsv\n'}
+[1.311795] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/local_setup.bash\n'}
+[1.312020] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/local_setup.sh\n'}
+[1.312264] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/local_setup.zsh\n'}
+[1.312534] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/local_setup.dsv\n'}
+[1.312741] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/package.dsv\n'}
+[1.313027] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/ament_index/resource_index/packages/arm_desc\n'}
+[1.313295] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/cmake/arm_descConfig.cmake\n'}
+[1.313488] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/cmake/arm_descConfig-version.cmake\n'}
+[1.313794] (arm_desc) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/arm_desc/share/arm_desc/package.xml\n'}
+[1.318374] (arm_desc) CommandEnded: {'returncode': 0}
+[1.342610] (kuka_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.346451] (arm_desc) JobEnded: {'identifier': 'arm_desc', 'rc': 0}
+[1.350563] (kuka_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.402581] (-) TimerEvent: {}
+[1.502867] (-) TimerEvent: {}
+[1.544713] (kuka_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.592710] (kuka_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.602992] (-) TimerEvent: {}
+[1.672136] (kuka_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.694462] (kuka_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.703122] (-) TimerEvent: {}
+[1.803448] (-) TimerEvent: {}
+[1.820754] (kuka_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.821582] (kuka_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.903615] (-) TimerEvent: {}
+[1.940883] (kuka_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.942372] (kuka_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.003732] (-) TimerEvent: {}
+[2.041260] (kuka_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.095027] (kuka_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.103878] (-) TimerEvent: {}
+[2.204302] (-) TimerEvent: {}
+[2.220034] (kuka_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.220357] (kuka_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/wipro_ws/src/kuka_pkg/include>\n'}
+[2.220465] (kuka_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.221592] (kuka_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.223417] (kuka_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.223639] (kuka_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.224434] (kuka_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.227709] (kuka_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.248398] (kuka_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.253502] (kuka_pkg) StdoutLine: {'line': b'-- Build files have been written to: /wipro_ws/build/kuka_pkg\n'}
+[2.264945] (kuka_pkg) CommandEnded: {'returncode': 0}
+[2.266031] (kuka_pkg) JobProgress: {'identifier': 'kuka_pkg', 'progress': 'build'}
+[2.266976] (kuka_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/wipro_ws/build/kuka_pkg', '--', '-j16', '-l16'], 'cwd': '/wipro_ws/build/kuka_pkg', 'env': OrderedDict([('HOSTNAME', 'Nimisha-Ideapad5'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0aed5a24-9cb1-4c2d-884b-a455fdcf77d9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3ee20eb8-df23-48b8-a6a3-1e2640194bbc.sock'), ('COLCON_PREFIX_PATH', '/wipro_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a272746e95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('AMENT_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/wipro_ws/build/kuka_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble')]), 'shell': False}
+[2.304403] (-) TimerEvent: {}
+[2.347613] (kuka_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kuka_node.dir/src/kuka_node.cpp.o\x1b[0m\n'}
+[2.404514] (-) TimerEvent: {}
+[2.504820] (-) TimerEvent: {}
+[2.605145] (-) TimerEvent: {}
+[2.705489] (-) TimerEvent: {}
+[2.805886] (-) TimerEvent: {}
+[2.906209] (-) TimerEvent: {}
+[3.006664] (-) TimerEvent: {}
+[3.107062] (-) TimerEvent: {}
+[3.207387] (-) TimerEvent: {}
+[3.307730] (-) TimerEvent: {}
+[3.408160] (-) TimerEvent: {}
+[3.508687] (-) TimerEvent: {}
+[3.609103] (-) TimerEvent: {}
+[3.709544] (-) TimerEvent: {}
+[3.809957] (-) TimerEvent: {}
+[3.910432] (-) TimerEvent: {}
+[4.010856] (-) TimerEvent: {}
+[4.111273] (-) TimerEvent: {}
+[4.211752] (-) TimerEvent: {}
+[4.312175] (-) TimerEvent: {}
+[4.412627] (-) TimerEvent: {}
+[4.512964] (-) TimerEvent: {}
+[4.613270] (-) TimerEvent: {}
+[4.713662] (-) TimerEvent: {}
+[4.814082] (-) TimerEvent: {}
+[4.914552] (-) TimerEvent: {}
+[5.015011] (-) TimerEvent: {}
+[5.115467] (-) TimerEvent: {}
+[5.215923] (-) TimerEvent: {}
+[5.316368] (-) TimerEvent: {}
+[5.416679] (-) TimerEvent: {}
+[5.517063] (-) TimerEvent: {}
+[5.617511] (-) TimerEvent: {}
+[5.717960] (-) TimerEvent: {}
+[5.818417] (-) TimerEvent: {}
+[5.918845] (-) TimerEvent: {}
+[6.019300] (-) TimerEvent: {}
+[6.119775] (-) TimerEvent: {}
+[6.220228] (-) TimerEvent: {}
+[6.320671] (-) TimerEvent: {}
+[6.421082] (-) TimerEvent: {}
+[6.521552] (-) TimerEvent: {}
+[6.621994] (-) TimerEvent: {}
+[6.722433] (-) TimerEvent: {}
+[6.822854] (-) TimerEvent: {}
+[6.923269] (-) TimerEvent: {}
+[7.023710] (-) TimerEvent: {}
+[7.124098] (-) TimerEvent: {}
+[7.224446] (-) TimerEvent: {}
+[7.324869] (-) TimerEvent: {}
+[7.425261] (-) TimerEvent: {}
+[7.525576] (-) TimerEvent: {}
+[7.625933] (-) TimerEvent: {}
+[7.726376] (-) TimerEvent: {}
+[7.826830] (-) TimerEvent: {}
+[7.927284] (-) TimerEvent: {}
+[8.027749] (-) TimerEvent: {}
+[8.128210] (-) TimerEvent: {}
+[8.228674] (-) TimerEvent: {}
+[8.239821] (kuka_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable kuka_node\x1b[0m\n'}
+[8.328818] (-) TimerEvent: {}
+[8.429249] (-) TimerEvent: {}
+[8.529718] (-) TimerEvent: {}
+[8.588146] (kuka_pkg) StdoutLine: {'line': b'[100%] Built target kuka_node\n'}
+[8.605631] (kuka_pkg) CommandEnded: {'returncode': 0}
+[8.606422] (kuka_pkg) JobProgress: {'identifier': 'kuka_pkg', 'progress': 'install'}
+[8.607306] (kuka_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/wipro_ws/build/kuka_pkg'], 'cwd': '/wipro_ws/build/kuka_pkg', 'env': OrderedDict([('HOSTNAME', 'Nimisha-Ideapad5'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-0aed5a24-9cb1-4c2d-884b-a455fdcf77d9.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3ee20eb8-df23-48b8-a6a3-1e2640194bbc.sock'), ('COLCON_PREFIX_PATH', '/wipro_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a272746e95.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e51c4c9f-1708-42ca-a7d7-f6ba33345eb8.sock'), ('AMENT_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/wipro_ws/build/kuka_pkg'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wipro_ws/install/kuka_quantec_support:/wipro_ws/install/kuka_moveit_config:/wipro_ws/install/kuka_lbr_iisy_support:/wipro_ws/install/kuka_iontec_support:/wipro_ws/install/kuka_fortec_support:/wipro_ws/install/kuka_cybertech_support:/wipro_ws/install/kuka_agilus_support:/opt/ros/humble')]), 'shell': False}
+[8.618270] (kuka_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.618716] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/lib/kuka_pkg/kuka_node\n'}
+[8.620755] (kuka_pkg) StdoutLine: {'line': b'-- Set runtime path of "/wipro_ws/install/kuka_pkg/lib/kuka_pkg/kuka_node" to ""\n'}
+[8.621056] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_pkg\n'}
+[8.621415] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_pkg\n'}
+[8.621870] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.sh\n'}
+[8.622104] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.dsv\n'}
+[8.622280] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.sh\n'}
+[8.622614] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.dsv\n'}
+[8.622817] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.bash\n'}
+[8.622997] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.sh\n'}
+[8.623250] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.zsh\n'}
+[8.623670] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.dsv\n'}
+[8.624021] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/package.dsv\n'}
+[8.624367] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/packages/kuka_pkg\n'}
+[8.624680] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig.cmake\n'}
+[8.624856] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig-version.cmake\n'}
+[8.625192] (kuka_pkg) StdoutLine: {'line': b'-- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/package.xml\n'}
+[8.628724] (kuka_pkg) CommandEnded: {'returncode': 0}
+[8.629716] (-) TimerEvent: {}
+[8.643735] (kuka_pkg) JobEnded: {'identifier': 'kuka_pkg', 'rc': 0}
+[8.644782] (-) EventReactorShutdown: {}

@@ -1,0 +1,69 @@
+[0.018s] Invoking command in '/wipro_ws/build/kuka_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wipro_ws/src/kuka_pkg -DCMAKE_INSTALL_PREFIX=/wipro_ws/install/kuka_pkg
+[0.197s] -- The C compiler identification is GNU 11.4.0
+[0.327s] -- The CXX compiler identification is GNU 11.4.0
+[0.340s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.457s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.458s] -- Detecting C compile features
+[0.459s] -- Detecting C compile features - done
+[0.464s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.604s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.604s] -- Detecting CXX compile features
+[0.605s] -- Detecting CXX compile features - done
+[0.615s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.842s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.016s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.124s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.140s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.160s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.331s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.339s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.534s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.582s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.683s] -- Looking for pthread.h
+[1.810s] -- Looking for pthread.h - found
+[1.810s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.931s] -- Found Threads: TRUE  
+[2.030s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.084s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.209s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.209s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/wipro_ws/src/kuka_pkg/include>
+[2.209s] -- Configured cppcheck exclude dirs and/or files: 
+[2.210s] -- Added test 'lint_cmake' to check CMake code style
+[2.212s] -- Added test 'uncrustify' to check C / C++ code style
+[2.212s] -- Configured uncrustify additional arguments: 
+[2.213s] -- Added test 'xmllint' to check XML markup files
+[2.216s] -- Configuring done
+[2.237s] -- Generating done
+[2.242s] -- Build files have been written to: /wipro_ws/build/kuka_pkg
+[2.254s] Invoked command in '/wipro_ws/build/kuka_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wipro_ws/src/kuka_pkg -DCMAKE_INSTALL_PREFIX=/wipro_ws/install/kuka_pkg
+[2.256s] Invoking command in '/wipro_ws/build/kuka_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/kuka_pkg -- -j16 -l16
+[2.336s] [ 50%] [32mBuilding CXX object CMakeFiles/kuka_node.dir/src/kuka_node.cpp.o[0m
+[8.229s] [100%] [32m[1mLinking CXX executable kuka_node[0m
+[8.577s] [100%] Built target kuka_node
+[8.595s] Invoked command in '/wipro_ws/build/kuka_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/kuka_pkg -- -j16 -l16
+[8.597s] Invoking command in '/wipro_ws/build/kuka_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/kuka_pkg
+[8.607s] -- Install configuration: ""
+[8.607s] -- Installing: /wipro_ws/install/kuka_pkg/lib/kuka_pkg/kuka_node
+[8.610s] -- Set runtime path of "/wipro_ws/install/kuka_pkg/lib/kuka_pkg/kuka_node" to ""
+[8.610s] -- Installing: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_pkg
+[8.610s] -- Installing: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_pkg
+[8.611s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.sh
+[8.611s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.dsv
+[8.611s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.sh
+[8.611s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.dsv
+[8.612s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.bash
+[8.612s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.sh
+[8.612s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.zsh
+[8.612s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.dsv
+[8.613s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/package.dsv
+[8.613s] -- Installing: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/packages/kuka_pkg
+[8.613s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig.cmake
+[8.614s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig-version.cmake
+[8.614s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/package.xml
+[8.618s] Invoked command in '/wipro_ws/build/kuka_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/kuka_pkg

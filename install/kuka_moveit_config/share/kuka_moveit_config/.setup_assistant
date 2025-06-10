@@ -1,13 +1,13 @@
 moveit_setup_assistant_config:
   urdf:
-    package: kuka_iontec_support
-    relative_path: urdf/kr70_r2100.urdf.xacro
+    package: arm_desc
+    relative_path: urdf/kuka.urdf
   srdf:
-    relative_path: config/kr70_r2100.srdf
+    relative_path: config/kuka.srdf
   package_settings:
-    author_name: nimisha
-    author_email: nimishonimisha@gmail.com
-    generated_timestamp: 1748013270
+    author_name: n
+    author_email: n@gmail.com
+    generated_timestamp: 1749572685
   control_xacro:
     command:
       - position

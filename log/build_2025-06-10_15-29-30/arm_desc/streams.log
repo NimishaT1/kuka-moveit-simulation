@@ -1,0 +1,66 @@
+[0.023s] Invoking command in '/wipro_ws/build/arm_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wipro_ws/src/arm_desc -DCMAKE_INSTALL_PREFIX=/wipro_ws/install/arm_desc
+[0.206s] -- The C compiler identification is GNU 11.4.0
+[0.334s] -- The CXX compiler identification is GNU 11.4.0
+[0.348s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.473s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.474s] -- Detecting C compile features
+[0.475s] -- Detecting C compile features - done
+[0.484s] -- Detecting CXX compiler ABI info
+[0.609s] -- Detecting CXX compiler ABI info - done
+[0.621s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.621s] -- Detecting CXX compile features
+[0.622s] -- Detecting CXX compile features - done
+[0.629s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.854s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.025s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.163s] -- Added test 'lint_cmake' to check CMake code style
+[1.167s] -- Added test 'xmllint' to check XML markup files
+[1.169s] -- Configuring done
+[1.174s] -- Generating done
+[1.176s] -- Build files have been written to: /wipro_ws/build/arm_desc
+[1.182s] Invoked command in '/wipro_ws/build/arm_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wipro_ws/src/arm_desc -DCMAKE_INSTALL_PREFIX=/wipro_ws/install/arm_desc
+[1.184s] Invoking command in '/wipro_ws/build/arm_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/arm_desc -- -j16 -l16
+[1.250s] Invoked command in '/wipro_ws/build/arm_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/arm_desc -- -j16 -l16
+[1.261s] Invoking command in '/wipro_ws/build/arm_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/arm_desc
+[1.274s] -- Install configuration: ""
+[1.274s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes
+[1.274s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_3_collisions.obj
+[1.274s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_4_visuals.mtl
+[1.275s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/base_link_visuals.obj
+[1.276s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_3_visuals.mtl
+[1.276s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_1_visuals.mtl
+[1.276s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/base_link_collisions.obj
+[1.276s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_6_collisions.obj
+[1.276s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_3_visuals.obj
+[1.281s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_5_visuals.mtl
+[1.281s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_6_visuals.obj
+[1.285s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_5_visuals.obj
+[1.290s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_5_collisions.obj
+[1.290s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_1_collisions.obj
+[1.291s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_2_collisions.obj
+[1.291s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_4_collisions.obj
+[1.292s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_6_visuals.mtl
+[1.292s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_4_visuals.obj
+[1.294s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_1_visuals.obj
+[1.298s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/base_link_visuals.mtl
+[1.298s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_2_visuals.obj
+[1.309s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/meshes/link_2_visuals.mtl
+[1.309s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/urdf
+[1.309s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/urdf/kuka.urdf
+[1.309s] -- Installing: /wipro_ws/install/arm_desc/share/ament_index/resource_index/package_run_dependencies/arm_desc
+[1.310s] -- Installing: /wipro_ws/install/arm_desc/share/ament_index/resource_index/parent_prefix_path/arm_desc
+[1.310s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/environment/ament_prefix_path.sh
+[1.310s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/environment/ament_prefix_path.dsv
+[1.310s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/environment/path.sh
+[1.311s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/environment/path.dsv
+[1.311s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/local_setup.bash
+[1.311s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/local_setup.sh
+[1.311s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/local_setup.zsh
+[1.312s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/local_setup.dsv
+[1.312s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/package.dsv
+[1.312s] -- Installing: /wipro_ws/install/arm_desc/share/ament_index/resource_index/packages/arm_desc
+[1.312s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/cmake/arm_descConfig.cmake
+[1.313s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/cmake/arm_descConfig-version.cmake
+[1.313s] -- Installing: /wipro_ws/install/arm_desc/share/arm_desc/package.xml
+[1.321s] Invoked command in '/wipro_ws/build/arm_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/arm_desc

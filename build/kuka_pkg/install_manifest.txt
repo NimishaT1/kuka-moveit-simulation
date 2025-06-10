@@ -1,0 +1,16 @@
+/wipro_ws/install/kuka_pkg/lib/kuka_pkg/kuka_node
+/wipro_ws/install/kuka_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_pkg
+/wipro_ws/install/kuka_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_pkg
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.sh
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.dsv
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.sh
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.dsv
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.bash
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.sh
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.zsh
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.dsv
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/package.dsv
+/wipro_ws/install/kuka_pkg/share/ament_index/resource_index/packages/kuka_pkg
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig.cmake
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig-version.cmake
+/wipro_ws/install/kuka_pkg/share/kuka_pkg/package.xml

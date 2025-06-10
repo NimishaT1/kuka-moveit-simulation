@@ -1,0 +1,6 @@
+Invoking command in '/wipro_ws/build/arm_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wipro_ws/src/arm_desc -DCMAKE_INSTALL_PREFIX=/wipro_ws/install/arm_desc
+Invoked command in '/wipro_ws/build/arm_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wipro_ws/src/arm_desc -DCMAKE_INSTALL_PREFIX=/wipro_ws/install/arm_desc
+Invoking command in '/wipro_ws/build/arm_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/arm_desc -- -j16 -l16
+Invoked command in '/wipro_ws/build/arm_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/arm_desc -- -j16 -l16
+Invoking command in '/wipro_ws/build/arm_desc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/arm_desc
+Invoked command in '/wipro_ws/build/arm_desc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/arm_desc

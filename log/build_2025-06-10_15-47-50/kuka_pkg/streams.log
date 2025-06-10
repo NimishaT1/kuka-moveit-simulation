@@ -1,0 +1,22 @@
+[0.023s] Invoking command in '/wipro_ws/build/kuka_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/kuka_pkg -- -j16 -l16
+[0.112s] [100%] Built target kuka_node
+[0.152s] Invoked command in '/wipro_ws/build/kuka_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wipro_ws/build/kuka_pkg -- -j16 -l16
+[0.155s] Invoking command in '/wipro_ws/build/kuka_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/kuka_pkg
+[0.166s] -- Install configuration: ""
+[0.169s] -- Up-to-date: /wipro_ws/install/kuka_pkg/lib/kuka_pkg/kuka_node
+[0.169s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/package_run_dependencies/kuka_pkg
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/parent_prefix_path/kuka_pkg
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.sh
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/ament_prefix_path.dsv
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.sh
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/environment/path.dsv
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.bash
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.sh
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.zsh
+[0.170s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/local_setup.dsv
+[0.170s] -- Installing: /wipro_ws/install/kuka_pkg/share/kuka_pkg/package.dsv
+[0.171s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/ament_index/resource_index/packages/kuka_pkg
+[0.171s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig.cmake
+[0.171s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/cmake/kuka_pkgConfig-version.cmake
+[0.171s] -- Up-to-date: /wipro_ws/install/kuka_pkg/share/kuka_pkg/package.xml
+[0.174s] Invoked command in '/wipro_ws/build/kuka_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wipro_ws/build/kuka_pkg

@@ -1,0 +1,9 @@
+/wipro_ws/build/arm_desc/CMakeFiles/uninstall.dir
+/wipro_ws/build/arm_desc/CMakeFiles/arm_desc_uninstall.dir
+/wipro_ws/build/arm_desc/CMakeFiles/test.dir
+/wipro_ws/build/arm_desc/CMakeFiles/edit_cache.dir
+/wipro_ws/build/arm_desc/CMakeFiles/rebuild_cache.dir
+/wipro_ws/build/arm_desc/CMakeFiles/list_install_components.dir
+/wipro_ws/build/arm_desc/CMakeFiles/install.dir
+/wipro_ws/build/arm_desc/CMakeFiles/install/local.dir
+/wipro_ws/build/arm_desc/CMakeFiles/install/strip.dir
