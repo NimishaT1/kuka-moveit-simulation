@@ -5,11 +5,12 @@ The URDF for kuka industrial bots for ros2 humble can be found here: https://git
 [KukaSim.webm](https://github.com/user-attachments/assets/a73a34d7-8b59-47d0-8d66-34a75207b97f)
 
 # Run the simulation
-1. Clone this repo into your workspace <br><br>
+1. Clone this repo into your workspace and rename it as wipro_ws<br><br>
 2. Install MoveIt using `sudo apt install ros-humble-moveit` <br><br>
-3. Build the package using `colcon build` in the workspace. <br><br>
-4. Source ros2 and moveit using `source /opt/ros/humble/setup.bash` and `source install/setup.bash` in the workspace directory.<br><br>
-5. Run `ros2 launch kuka_moveit_config demo.launch.py` which opens up rviz and shows the simulation of the robotic arm.<br>
+3. Remove the build and install directories. <br><br>
+4. Build the package using `colcon build --symlink-install` in the workspace. <br><br>
+5. Source ros2 and moveit using `source /opt/ros/humble/setup.bash` and `source install/setup.bash` in the workspace directory.<br><br>
+6. Run `ros2 launch kuka_moveit_config demo.launch.py` which opens up rviz and shows the simulation of the robotic arm.<br>
 # Plan your own path for the arm
 To plan you own motion of the arm, follow these:<br><br>
 1. Follow the first 4 steps above. Then<br><br>
