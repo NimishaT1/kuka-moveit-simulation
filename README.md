@@ -6,7 +6,8 @@ The URDF for kuka industrial bots for ros2 humble can be found here: https://git
 
 # Run the simulation
 1. Clone this repo into your workspace and rename it as wipro_ws<br><br>
-2. Install MoveIt using `sudo apt install ros-humble-moveit` <br><br>
+2. Install MoveIt using `sudo apt install ros-humble-moveit` and controller manager using <br>`sudo apt install -y ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-controller-manager
+`<br><br>
 3. Remove the build and install directories. <br><br>
 4. Build the package using `colcon build --symlink-install` in the workspace. <br><br>
 5. Source ros2 and moveit using `source /opt/ros/humble/setup.bash` and `source install/setup.bash` in the workspace directory.<br><br>
